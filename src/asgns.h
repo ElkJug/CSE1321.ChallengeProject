@@ -1,0 +1,20 @@
+// include all class notes for main to run
+void asgn1a();
+void asgn1b();
+void asgn1c();
+void asgn2a();
+void asgn2b();
+void asgn2c();
+void asgn3a();
+void asgn3b();
+void asgn3c();
+void asgn4a();
+void asgn4b();
+void asgn4c();
+void asgn5a();
+void asgn5b();
+void asgn6a();
+void asgn6b();
+void asgn7a();
+void asgn7b();
+void sandbox();
