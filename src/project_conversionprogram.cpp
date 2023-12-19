@@ -1,34 +1,3 @@
-/*
-selection menu(do...while):
-    temperature, distance, weight, or currency. 
-    If invalid
-        error message
-        menu options / exit
-        
-        (Switch)
-           .    temperature  ->  Celsius/Fahrenheit/Kelvin
-           .    weight   ->  lb/kg
-           .    currency ->  USD/EUR
-           .    (Use the latest conversion values found on Yahoo finance)
-           .
-        
-        display a formatted output -> original / converted value
-
-    ask another - yes -> menu | no -> thank+exit
-
-requirement:
-    declare variables
-    use a default and a parametrized constructor
-    create the methods
-    get and set methods
-    this keyword
-    all variables private
-    all methods public
-    incapsulate class app/(calA, calB, calC...)
-
-Test:
-    for each classes -> display test cases / test results.
-*/
 #include <limits>
 #include <iostream>
 #include <cstring>
