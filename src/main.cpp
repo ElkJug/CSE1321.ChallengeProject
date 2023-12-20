@@ -1,7 +1,12 @@
-#include "project.h"
-#include <iostream>
+//main.cpp - Entry point of the program
+
+#include "Conversion.h"
 
 int main(int, char**){
-    project_conversionprogram();
+    // create an instance of class project_conversionprogram()
+    
+    Conversion convert_util;
+    //convert_util.run();
+
     return 0;
 }
