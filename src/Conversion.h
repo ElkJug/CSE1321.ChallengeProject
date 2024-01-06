@@ -5,6 +5,10 @@
 
 class Conversion{
     public:
-    private:
+    void temperature_conversion();
+    void weight_conversion();
+    void currency_conversion();
+    void run();
+
 };
 #endif //CONVERSION_H

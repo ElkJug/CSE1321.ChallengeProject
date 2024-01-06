@@ -1,26 +1,25 @@
-//Celsius/Fahrenheit/Kelvin
-class Temperature{
-    private:
-        double kelvin;
-    public:
-        Temperature(){ kelvin = 0;}
-        void set_kelvin(double kelvin){
-            this->kelvin = kelvin;
-        }
-        void set_celsius(double celsius){
-            this->kelvin = celsius + 273.15;
-        }
-        void set_fahrenheit(double fahrenheit){
-            this->kelvin = (fahrenheit + 459.67) * (double(5)/9);
-        }
+#include "Temperature.h"
 
-        double get_kelvin(){
-            return this->kelvin;
-        }
-        double get_celsius(){
-            return this->kelvin - 273.15;
-        }
-        double get_fahrenheit(){
-            return (this->kelvin * 9/5) - 459.67;
-        }
-};
+//Celsius
+double Temperature::get_kelvin(){
+    return this->kelvin;
+    }
+void Temperature::set_kelvin(double kelvin){
+    this->kelvin = kelvin;
+    }
+
+//Fahrenheit
+double Temperature::get_celsius(){
+    return this->kelvin - 273.15;
+    }
+void Temperature::set_celsius(double celsius){
+    this->kelvin = celsius + 273.15;
+    }
+
+//Kelvin
+double Temperature::get_fahrenheit(){
+    return (this->kelvin * 9/5) - 459.67;
+    }
+void Temperature::set_fahrenheit(double fahrenheit){
+    this->kelvin = (fahrenheit + 459.67) * (double(5)/9);
+    }

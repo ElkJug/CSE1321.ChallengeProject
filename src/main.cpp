@@ -6,7 +6,7 @@ int main(int, char**){
     // create an instance of class project_conversionprogram()
     
     Conversion convert_util;
-    //convert_util.run();
+    convert_util.run();
 
     return 0;
 }
